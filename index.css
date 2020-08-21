@@ -140,6 +140,10 @@ body {
     font-weight: lighter;
     font-size: 12px;
   }
+  iframe {
+    max-width: 72vw;
+    margin-right: 2vw;
+  }
 }
 #footer {
   display: flex;
