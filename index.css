@@ -1,0 +1,149 @@
+body {
+  background-image: url(./picture/night.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.jumbotron {
+  opacity: 0.4;
+
+  box-shadow: 10px 8px 10px #616060;
+  background-color: rgb(29, 23, 23);
+}
+.col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fas,
+.fab {
+  color: burlywood;
+}
+
+#midText {
+  color: white;
+}
+#hiddenText {
+  display: none;
+}
+
+#works {
+  background-color: rgb(23, 94, 81);
+  box-shadow: 10px 8px 10px #616060;
+}
+#progress {
+  background-color: rgb(23, 94, 81);
+  box-shadow: 10px 8px 10px #616060;
+}
+#literature {
+  background-color: rgb(23, 94, 81);
+  box-shadow: 10px 8px 10px #616060;
+}
+.nav-link {
+  font-weight: bold;
+  color: brown;
+}
+
+#tictactoe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#checkers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#blogDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#novaDiv {
+  background-color: white;
+  border-radius: 50%;
+  width: 1vh;
+  height: 1vh;
+  position: absolute;
+  top: 4vh;
+  right: 5vw;
+  background-image: radial-gradient(yellow, white 60%);
+  z-index: 2;
+}
+#btnToggle {
+  background-color: rgba(252, 214, 0, 0.911);
+  position: fixed;
+  top: 6vh;
+  right: 1vw;
+  border-radius: 50%;
+  width: 8vh;
+  height: 8vh;
+  z-index: 2;
+}
+#btnHome {
+  background-color: rgb(122, 53, 53);
+  color: rgb(0, 132, 255);
+  position: fixed;
+  top: 6vh;
+  left: 1vw;
+  border-radius: 50%;
+  width: 8vh;
+  height: 8vh;
+  font-size: 8.1vh;
+  z-index: 2;
+  border: 1px solid rgb(0, 204, 255);
+}
+
+#shipDiv {
+  color: aquamarine;
+  position: absolute;
+  bottom: 0vh;
+  left: 6vw;
+  visibility: hidden;
+}
+#laserDiv {
+  background-color: rgb(72, 199, 55);
+  border-radius: 30%;
+  width: 2vw;
+  height: 3px;
+  position: absolute;
+  top: 4vh;
+  left: 6vw;
+  visibility: hidden;
+}
+#novaButton {
+  color: yellow;
+  background-color: brown;
+  padding: 4px;
+}
+@media (max-width: 768px) {
+  #novaButton {
+    position: fixed;
+    width: 8vh;
+    height: 8vh;
+    top: 16vh;
+    left: 1vh;
+    border-radius: 50%;
+    padding: 0px;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

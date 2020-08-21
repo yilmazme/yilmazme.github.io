@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="keywords"
+      content="web, developer, frontend, Mehmet, Yilmaz, portfolio, cv"
+    />
+    <meta name="description" content="my portfolio and blog" />
+    <meta name="author" content="Mehmet Yilmaz" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b86abbeb3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" href="./picture/iconBlue.png" />
+    <title>Mehmet Yılmaz</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <button
+          type="button"
+          class="btn btn-dark btn-sm"
+          id="btnToggle"
+        ></button>
+        <a href="#home"><i class="fas fa-globe-africa" id="btnHome"> </i></a>
+      </nav>
+
+      <div class="container-fluid" id="home">
+        <i id="shipDiv" class="fas fa-space-shuttle fa-2x"></i>
+        <div id="laserDiv"></div>
+        <div id="novaDiv"></div>
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-md-3">
+              <img
+                src="./picture/myy.jpeg"
+                class="img-fluid img"
+                alt="picture"
+                width="175px"
+                height="120px"
+              />
+
+              <div class="card bg-success" style="width: 11rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Mehmet Yılmaz</h5>
+                  <h6 class="card-subtitle mb-2 text-right">
+                    WEB Developer,<br />
+                    Physicist, <br />
+                    Amateur Writer
+                  </h6>
+                  <p class="card-text">
+                    JavaScript, React, HTML, CSS, JSON, Bootstrap, Jquery,
+                    Python
+                  </p>
+                </div>
+
+                <a
+                  class="btn btn-success"
+                  data-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <b>Contact</b> <i class="fas fa-address-book"></i>
+                </a>
+
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    <p style="font-size: 12px;" class="text-center">
+                      10myilmaz@gmail.com<br />+90 0538 476 1082
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-7" id="midText">
+              <h3 class="display-4">Hello, world!</h3>
+
+              <p>
+                My name is Mehmet. I am a programming enthusiast. My coding
+                journey has begun with searching for Machine Learning. I am a
+                physics graduate from METU and term like Artificial Intelligence
+                was very attractive to me and still is. My primary goal was
+                learning some programming languages like Python and getting
+                involved in Machine Learning with my physics background. But I
+                think I have started from scratch :). I began with HTML, CSS;
+                continue with JavaScript and you can guess the path after. I do
+                not regret; on the contrary, loved JavaScript and coding with it
+                began to be a hobby for me. Within JS libraries my favorite is
+                React. I can say I am very comfortable with React but I can not
+                say I am done with it, recently I have begun to learn newly
+                introduced hooks :). Still learning Python, C++ and some other
+                JavaScript libraries. Coding teaches me that very clearly. I can
+                never learn everything but I can reach my goals by using the
+                tools I have efficiently.
+              </p>
+              <hr class="my-4" />
+              <p>
+                I know that I am going to change many things on this site very
+                soon because things I will learn is going to make me better or
+                at least they will change my mind. But all of us should start
+                doing something we enjoy and not being afraid of not knowing
+                everything. Nowadays I enjoy coding with frontend libraries and
+                it is very fun.
+              </p>
+              <p id="hiddenText">
+                On the site, below, you can see some of my works that are mostly
+                created with React. I know they are not very sophisticated and
+                there are not much yet but they are rich in terms of learning
+                the basics of frameworks. With the links, you can go to the
+                Netlify pages and take a look at them. If you want to see source
+                code you can check my repositories on Github. For this purpose
+                link also will be somewhere.
+                <br />
+                <br />
+                Lastly, I want to talk about this site. I created it with old
+                fashion by using HTML, CSS, JS and Bootstrap. I could create it
+                with React and it would be much easier. But I thought my first
+                portfolio site should be in a classical way.
+              </p>
+              <button
+                class="btn btn-success btn-sm"
+                id="readButton"
+                onclick="myFunction()"
+              >
+                Read More
+              </button>
+            </div>
+            <div class="col-md-2 text-center">
+              <nav class="nav flex-column">
+                <a class="nav-link" href="#games">Games</a
+                ><i class="fas fa-gamepad"></i>
+                <a class="nav-link" href="#apps">Apps</a>
+                <i class="fas fa-tablet-alt"></i>
+                <a class="nav-link" href="#web">WEB</a>
+                <i class="fas fa-laptop"></i>
+                <a
+                  class="nav-link"
+                  href="https://github.com/helef-cod"
+                  target="_blank"
+                  >GitHub</a
+                ><i class="fab fa-github"></i>
+                <a class="nav-link" href="#literature">Literature</a>
+                <i class="fab fa-blogger"></i>
+              </nav>
+              <br />
+              <button
+                id="novaButton"
+                type="button"
+                class="btn btn-dark btn-sm"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Go to Light Mode with Star Wars Theme"
+              >
+                Star Wars
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="container" id="works">
+          <div class="container-fluid" id="games">
+            <h4>GAMES:</h4>
+            <div id="tictactoe">
+              <div>
+                <p>
+                  <b
+                    ><h5>1) Tic Tac Toe:</h5>
+                    Created with React, class components used instead of
+                    hooks,<br />
+                    local storage used so even you refresh the page you won't
+                    lose <br />
+                    the games' status. Here is an iframe of the game so that
+                    <br />
+                    you can play here or you can visit the page.
+                  </b>
+                  <br />
+                  <i
+                    ><a
+                      href="https://tictactoe-yilmaz.netlify.app/"
+                      target="_blank"
+                    >
+                      Tic Tac Toe Game</a
+                    ></i
+                  >
+                </p>
+              </div>
+              <iframe
+                src="https://tictactoe-yilmaz.netlify.app/"
+                frameborder="0"
+                height="400px"
+                width="300px"
+              ></iframe>
+            </div>
+            <br />
+            <div id="checkers">
+              <div>
+                <p>
+                  <b
+                    ><h5>2) Checkers:</h5>
+                    Created with just JavaScript, CSS and HTML.
+                  </b>
+                  <br />
+                  <i
+                    ><a
+                      href="https://checkers-yilmaz.netlify.app/"
+                      target="_blank"
+                    >
+                      Checkers</a
+                    ></i
+                  >
+                </p>
+              </div>
+              <a href="https://checkers-yilmaz.netlify.app/" target="_blank">
+                <img
+                  class="img-thumbnail"
+                  src="./picture/checkers.jpg"
+                  alt="checkers_photo"
+                  style="height: 400px; width: 300px;"
+              /></a>
+            </div>
+          </div>
+          <div class="container-fluid" id="apps">
+            <h4>APPS:</h4>
+            <div id="contacts">
+              <div>
+                <p>
+                  <b
+                    ><h5>1) Contacts:</h5>
+                    A simple React app that pulls a certain number of random
+                    <br />
+                    users and shows them in separate cards and also in table
+                    <br />
+                    veiw. You can add new contacts and delete ones you want
+                    <br />
+                    manually.</b
+                  >
+                  <br />
+                  <i
+                    ><a
+                      href="https://contactbasics.netlify.app/"
+                      target="_blank"
+                    >
+                      Contacts App</a
+                    ></i
+                  >
+                </p>
+              </div>
+              <a href="https://contactbasics.netlify.app/" target="_blank">
+                <img
+                  class="img-thumbnail"
+                  src="./picture/contacts.jpg"
+                  alt="contacts_photo"
+                  style="height: 400px; width: 300px;"
+              /></a>
+            </div>
+          </div>
+          <div class="container-fluid" id="web">
+            <h4>WEB:</h4>
+            <div id="school">
+              <div>
+                <p>
+                  <b
+                    ><h5>Under Construction!</h5>
+                    <i class="fas fa-tools fa-2x"></i>
+                  </b>
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="container-fluid" id="progress">
+          <h4>JavaScript:</h4>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped"
+              role="progressbar"
+              style="width: 87%;"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h4>HTML:</h4>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped bg-success"
+              role="progressbar"
+              style="width: 90%;"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h4>CSS:</h4>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped bg-info"
+              role="progressbar"
+              style="width: 90%;"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h4>React:</h4>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped bg-warning"
+              role="progressbar"
+              style="width: 85%;"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h4>Bootstrap:</h4>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped bg-danger"
+              role="progressbar"
+              style="width: 90%;"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h4>Python:</h4>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped"
+              role="progressbar"
+              style="width: 80%;"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <br />
+        </div>
+      </div>
+      <br />
+      <div class="container-fluid">
+        <div class="container-fluid" id="literature">
+          <div id="blogDiv">
+            <div>
+              <p>
+                <b
+                  ><h5>Literature:</h5>
+                  I am an amateur writer, mostly write short stories. They are
+                  <br />
+                  in Turkish. I provided some links if you are interested. I
+                  <br />
+                  should warn you the stories are a little bit existentialist
+                  <br />
+                  and absurd. So if you are looking for something fun they are
+                  <br />
+                  not good choices.
+                  <br />
+                  <a href="https://yilmazme.blogspot.com/" target="_blank">
+                    See Stories</a
+                  >
+                </b>
+              </p>
+            </div>
+            <a href="https://yilmazme.blogspot.com/" target="_blank">
+              <img
+                class="img-thumbnail"
+                src="./picture/blog.jpg"
+                alt="blog_photo"
+                style="height: 400px; width: 300px;"
+            /></a>
+          </div>
+          <br />
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="container-fluid" id="footerContainer">
+        <nav class="navbar-sm fixed-bottom bg-info">
+          <div id="footer">
+            <a class="nav-link" href="#home">Home</a>
+            <a style="font-size: 0.6em;">m.yilmaz &copy; 2020</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
