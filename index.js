@@ -58,11 +58,9 @@ novaBotton.addEventListener("click", () => {
     literature.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
     novaBotton.style.display = toggle ? "none" : "";
     jumbo.style.backgroundColor = toggle ? "white" : "rgb(29, 23, 23)";
-    btnToggle.style.backgroundColor = toggle
+    btnToggle.style.backgroundImage = toggle
       ? "black"
       : "rgba(252, 214, 0, 0.911)";
-    //btnToggle.style.color = toggle ? "white" : "black";
-    // btnToggle.innerHTML = toggle ? "Dark" : "Light";
     toggle = !toggle;
   }, 3600);
 });
@@ -85,8 +83,6 @@ btnToggle.addEventListener("click", () => {
   btnToggle.style.backgroundColor = toggle
     ? "black"
     : "rgba(252, 214, 0, 0.911)";
-  //btnToggle.style.color = toggle ? "white" : "black";
-  //btnToggle.innerHTML = toggle ? "Dark" : "Light";
   toggle = !toggle;
 });
 

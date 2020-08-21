@@ -18,11 +18,11 @@ body {
 }
 .fas,
 .fab {
-  color: burlywood;
+  color: rgb(222, 184, 135);
 }
 
 #midText {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #hiddenText {
   display: none;
@@ -42,7 +42,7 @@ body {
 }
 .nav-link {
   font-weight: bold;
-  color: brown;
+  color: rgb(165, 42, 42);
 }
 
 #tictactoe {
@@ -72,18 +72,18 @@ body {
 }
 
 #novaDiv {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   width: 1vh;
   height: 1vh;
   position: absolute;
   top: 4vh;
   right: 5vw;
-  background-image: radial-gradient(yellow, white 60%);
+  background-image: radial-gradient(rgb(255, 255, 0), rgb(255, 255, 255) 60%);
   z-index: 2;
 }
 #btnToggle {
-  background-color: rgba(252, 214, 0, 0.911);
+  background-color: hsl(56, 94%, 52%);
   position: fixed;
   top: 6vh;
   right: 1vw;
@@ -93,7 +93,6 @@ body {
   z-index: 2;
 }
 #btnHome {
-  background-color: rgb(122, 53, 53);
   color: rgb(0, 132, 255);
   position: fixed;
   top: 6vh;
@@ -103,6 +102,11 @@ body {
   height: 8vh;
   font-size: 8.1vh;
   z-index: 2;
+  background-image: radial-gradient(
+    rgb(85, 79, 24),
+    rgb(0, 128, 0),
+    rgb(0, 0, 0)
+  );
 }
 
 #shipDiv {
@@ -123,8 +127,8 @@ body {
   visibility: hidden;
 }
 #novaButton {
-  color: yellow;
-  background-color: brown;
+  color: rgb(255, 255, 0);
+  background-color: rgb(165, 42, 42);
   padding: 4px;
 }
 @media (max-width: 768px) {
