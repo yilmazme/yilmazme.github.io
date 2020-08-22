@@ -58,7 +58,7 @@ novaBotton.addEventListener("click", () => {
     literature.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
     novaBotton.style.display = toggle ? "none" : "";
     jumbo.style.backgroundColor = toggle ? "white" : "rgb(29, 23, 23)";
-    btnToggle.style.backgroundImage = toggle
+    btnToggle.style.backgroundColor = toggle
       ? "black"
       : "rgba(252, 214, 0, 0.911)";
     toggle = !toggle;
