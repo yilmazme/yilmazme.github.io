@@ -57,6 +57,12 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+#todo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 #checkers {
   display: flex;
   flex-wrap: wrap;
