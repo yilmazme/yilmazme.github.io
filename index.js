@@ -9,6 +9,7 @@ const novaBotton = document.querySelector("#novaButton");
 const works = document.querySelector("#works");
 const progress = document.querySelector("#progress");
 const literature = document.querySelector("#literature");
+const hoverBtn = document.querySelector("#hoverBtn");
 //const topNav = document.querySelector("#topNav");
 
 novaBotton.addEventListener("click", () => {
@@ -53,14 +54,15 @@ novaBotton.addEventListener("click", () => {
       ? "url(./picture/day.jpg)"
       : "url(./picture/night.jpg)";
     midText.style.color = toggle ? "black" : "white";
-    works.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
-    progress.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
-    literature.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
+    works.style.backgroundColor = toggle ? "white" : "#201335";
+    works.style.color = toggle ? "black" : "white";
+    progress.style.backgroundColor = toggle ? "white" : "#201335";
+    progress.style.color = toggle ? "black" : "white";
+    literature.style.backgroundColor = toggle ? "white" : "#201335";
+    literature.style.color = toggle ? "black" : "white";
     novaBotton.style.display = toggle ? "none" : "";
-    jumbo.style.backgroundColor = toggle ? "white" : "rgb(29, 23, 23)";
-    btnToggle.style.backgroundColor = toggle
-      ? "black"
-      : "rgba(252, 214, 0, 0.911)";
+    jumbo.style.backgroundColor = toggle ? "white" : "#201335";
+    btnToggle.innerHTML = toggle ? "Dark" : "Light";
     toggle = !toggle;
   }, 3600);
 });
@@ -75,14 +77,15 @@ btnToggle.addEventListener("click", () => {
     ? "url(./picture/day.jpg)"
     : "url(./picture/night.jpg)";
   midText.style.color = toggle ? "black" : "white";
-  works.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
-  progress.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
-  literature.style.backgroundColor = toggle ? "white" : "rgb(23, 94, 81)";
+  works.style.backgroundColor = toggle ? "white" : "#201335";
+  works.style.color = toggle ? "black" : "white";
+  progress.style.backgroundColor = toggle ? "white" : "#201335";
+  progress.style.color = toggle ? "black" : "white";
+  literature.style.backgroundColor = toggle ? "white" : "#201335";
+  literature.style.color = toggle ? "black" : "white";
   novaBotton.style.display = toggle ? "none" : "";
-  jumbo.style.backgroundColor = toggle ? "white" : "rgb(29, 23, 23)";
-  btnToggle.style.backgroundColor = toggle
-    ? "black"
-    : "rgba(252, 214, 0, 0.911)";
+  jumbo.style.backgroundColor = toggle ? "white" : "#201335";
+  btnToggle.innerHTML = toggle ? "Dark" : "Light";
   toggle = !toggle;
 });
 

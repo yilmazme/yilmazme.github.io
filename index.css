@@ -8,7 +8,8 @@ body {
   opacity: 0.4;
 
   box-shadow: 10px 8px 10px #616060;
-  background-color: rgb(29, 23, 23);
+  background-color: #201335;
+  margin-top: 2vh;
 }
 .col-md-3 {
   display: flex;
@@ -18,7 +19,7 @@ body {
 }
 .fas,
 .fab {
-  color: rgb(222, 184, 135);
+  color: #ffb17a;
 }
 
 #midText {
@@ -29,16 +30,19 @@ body {
 }
 
 #works {
-  background-color: rgb(23, 94, 81);
+  background-color: #201335;
   box-shadow: 10px 8px 10px #616060;
+  color: #ffffff;
 }
 #progress {
-  background-color: rgb(23, 94, 81);
+  background-color: #201335;
   box-shadow: 10px 8px 10px #616060;
+  color: #ffffff;
 }
 #literature {
-  background-color: rgb(23, 94, 81);
+  background-color: #201335;
   box-shadow: 10px 8px 10px #616060;
+  color: #ffffff;
 }
 .nav-link {
   font-weight: bold;
@@ -88,31 +92,31 @@ body {
   background-image: radial-gradient(rgb(255, 255, 0), rgb(255, 255, 255) 60%);
   z-index: 2;
 }
-#btnToggle {
-  background-color: hsl(56, 94%, 52%);
-  position: fixed;
-  top: 6vh;
-  right: 1vw;
-  border-radius: 50%;
-  width: 8vh;
-  height: 8vh;
-  z-index: 2;
-}
+
 #btnHome {
+  animation: orbit 6s linear 3s infinite;
   color: rgb(0, 132, 255);
   position: fixed;
-  top: 6vh;
+  top: 0vh;
   left: 1vw;
   border-radius: 50%;
   width: 8vh;
   height: 8vh;
   font-size: 8.1vh;
-  z-index: 2;
+  z-index: -1;
   background-image: radial-gradient(
     rgb(85, 79, 24),
     rgb(0, 128, 0),
     rgb(0, 0, 0)
   );
+}
+@keyframes orbit {
+  50% {
+    left: 50vw;
+  }
+  100% {
+    left: 100vw;
+  }
 }
 
 #shipDiv {
@@ -132,23 +136,30 @@ body {
   left: 6vw;
   visibility: hidden;
 }
+#btnToggle {
+  color: rgb(255, 255, 0);
+  background: linear-gradient(90deg, rgb(71, 71, 131), black);
+  position: fixed;
+  top: 6vh;
+  right: 1vw;
+  border-radius: 50%;
+  width: 8vh;
+  height: 8vh;
+  z-index: 2;
+}
 #novaButton {
   color: rgb(255, 255, 0);
-  background-color: rgb(165, 42, 42);
-  padding: 4px;
+  background: linear-gradient(90deg, rgb(71, 71, 131), black);
+  position: fixed;
+  top: 18vh;
+  right: 1vw;
+  border-radius: 50%;
+  width: 8vh;
+  height: 8vh;
+  z-index: 2;
 }
+
 @media (max-width: 768px) {
-  #novaButton {
-    position: fixed;
-    width: 8vh;
-    height: 8vh;
-    top: 16vh;
-    left: 1vh;
-    border-radius: 50%;
-    padding: 0px;
-    font-weight: lighter;
-    font-size: 12px;
-  }
   iframe {
     max-width: 72vw;
     margin-right: 2vw;
