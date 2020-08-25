@@ -90,7 +90,7 @@ body {
   top: 4vh;
   right: 5vw;
   background-image: radial-gradient(rgb(255, 255, 0), rgb(255, 255, 255) 60%);
-  z-index: 2;
+  z-index: -2;
 }
 
 #btnHome {
@@ -135,6 +135,7 @@ body {
   top: 4vh;
   left: 6vw;
   visibility: hidden;
+  z-index: -3;
 }
 #btnToggle {
   color: rgb(255, 255, 0);

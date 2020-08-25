@@ -26,7 +26,7 @@ novaBotton.addEventListener("click", () => {
   ship.style.transitionDuration = "2000ms";
   ship.style.visibility = "visible";
 
-  laser.style.transform = "translate(85vw)";
+  laser.style.transform = "translate(86vw)";
   laser.style.transitionDuration = "1000ms";
   laser.style.transitionDelay = "2000ms";
   laser.style.visibility = "visible";
