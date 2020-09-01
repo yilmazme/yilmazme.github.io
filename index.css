@@ -99,23 +99,6 @@ body {
   z-index: -2;
 }
 
-#btnHome {
-  animation: orbit 6s linear 3s infinite;
-  color: rgb(0, 132, 255);
-  position: fixed;
-  top: 0vh;
-  left: 1vw;
-  border-radius: 50%;
-  width: 8vh;
-  height: 8vh;
-  font-size: 8.1vh;
-  z-index: -1;
-  background-image: radial-gradient(
-    rgb(85, 79, 24),
-    rgb(0, 128, 0),
-    rgb(0, 0, 0)
-  );
-}
 @keyframes orbit {
   50% {
     left: 50vw;
@@ -150,20 +133,38 @@ body {
   top: 6vh;
   right: 1vw;
   border-radius: 50%;
-  width: 8vh;
-  height: 8vh;
+  width: 3.5em;
+  height: 3.5em;
   z-index: 2;
 }
 #novaButton {
   color: rgb(255, 255, 0);
   background: linear-gradient(90deg, rgb(71, 71, 131), black);
-  position: fixed;
+  position: absolute;
   top: 18vh;
   right: 1vw;
   border-radius: 50%;
+  width: 3.5em;
+  height: 3.5em;
+  padding: 0px;
+  z-index: 2;
+}
+#btnHome {
+  animation: orbit 6s linear 3s infinite;
+  color: rgb(0, 132, 255);
+  position: fixed;
+  top: 0vh;
+  left: 1vw;
+  border-radius: 50%;
   width: 8vh;
   height: 8vh;
-  z-index: 2;
+  font-size: 8.1vh;
+  z-index: -1;
+  background-image: radial-gradient(
+    rgb(85, 79, 24),
+    rgb(0, 128, 0),
+    rgb(0, 0, 0)
+  );
 }
 
 @media (max-width: 768px) {
