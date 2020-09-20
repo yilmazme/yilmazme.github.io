@@ -1,4 +1,5 @@
 body {
+  margin: 0px;
   background-image: url(./picture/night.jpg);
   background-size: contain;
   background-repeat: repeat;
@@ -6,7 +7,6 @@ body {
 
 .jumbotron {
   opacity: 0.4;
-
   box-shadow: 10px 8px 10px #616060;
   background-color: #201335;
   margin-top: 2vh;
@@ -25,7 +25,7 @@ body {
 #midText {
   color: rgb(255, 255, 255);
 }
-#hiddenText {
+#read-less-btn {
   display: none;
 }
 
@@ -47,25 +47,6 @@ body {
 .nav-link {
   font-weight: bold;
   color: rgb(165, 42, 42);
-}
-
-#wincar,
-#tictactoe,
-#contacts,
-#todo,
-#checkers,
-#apod {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-#blogDiv {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10px;
 }
 
 #novaDiv {
@@ -125,9 +106,9 @@ body {
   top: 18vh;
   right: 1vw;
   border-radius: 50%;
-  width: 3.5em;
-  height: 3.5em;
-  padding: 0px;
+  width: 3.6em;
+  height: 3.6em;
+
   z-index: 2;
 }
 #btnHome {

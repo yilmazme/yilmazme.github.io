@@ -89,11 +89,17 @@ btnToggle.addEventListener("click", () => {
   toggle = !toggle;
 });
 
-var hiddenText = document.querySelector("#hiddenText");
-var readButton = document.querySelector("#readButton");
-var toggleP = false;
-function myFunction() {
-  hiddenText.style.display = toggleP ? "none" : "block";
-  readButton.innerHTML = toggleP ? "Read More" : "Read Less";
-  toggleP = !toggleP;
+//var hiddenText = document.querySelector("#hiddenText");
+var readMoreButton = document.querySelector("#read-more-btn");
+var readLessButton = document.querySelector("#read-less-btn");
+var toggleHide = false;
+function handleMore() {
+  readLessButton.style.display = "unset";
+  readMoreButton.style.display = "none";
+  toggleHide = !toggleHide;
+}
+function handleLess() {
+  readLessButton.style.display = "none";
+  readMoreButton.style.display = "unset";
+  toggleHide = !toggleHide;
 }
