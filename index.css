@@ -3,6 +3,7 @@ body {
   background-image: url(./picture/night.jpg);
   background-size: contain;
   background-repeat: repeat;
+  overflow-x: hidden;
 }
 
 .jumbotron {
